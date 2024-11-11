@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 public class PlindromeNumber {
@@ -9,11 +8,11 @@ public class PlindromeNumber {
 		System.out.println("Enter the Number:");
 
 		int no = sc.nextInt();
-		
+
 		int temp = no;
 		int rev = 0;
 		int rem;
-		
+
 		while (temp != 0) {
 			rem = temp % 10;
 			rev = rev * 10 + rem;
