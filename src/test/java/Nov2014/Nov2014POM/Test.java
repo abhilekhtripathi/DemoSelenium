@@ -4,22 +4,21 @@ package Nov2014.Nov2014POM;
 public class Test{
 	public static void main(String[] args) {
 		
-		int [] arr = {12,1,23,33,2,233};
+		int [] arr = {12,25,258,123};
 		
-		int start = 0;
-		int end = arr.length-1;
-		
-		while (start<end) {
-			int temp = arr[start];
-			arr[start]= arr[end];
-			arr[end]=temp;
-			start++;
-			end--;
-		}
+		int first = Integer.MIN_VALUE;
+		int second = Integer.MIN_VALUE;
 		
 		for (int num : arr) {
-			System.out.print(num +" ");
+			if (num> first) {
+				second=first;
+				first= num;
+			}
+			else if (num>second && num!=first) {
+				second = num;
+			}
 		}
+		System.out.println("the largest number of arrays is :"+second);
 		
 	}
 }
