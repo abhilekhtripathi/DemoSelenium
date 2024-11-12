@@ -1,4 +1,4 @@
-
+import java.beans.VetoableChangeListenerProxy;
 
 class Vehicle {
 	// Static method
