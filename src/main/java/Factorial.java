@@ -4,12 +4,12 @@ public class Factorial {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("dfghjk");
+		//System.out.println("dfghjk");
 		// !5 = 5x4x3x2x1 = 120
 		// !4 = 24
 		// !0 = 1
 
-		int num = 0;
+		int num = 10;
 		getFact(num);
 
 	}
