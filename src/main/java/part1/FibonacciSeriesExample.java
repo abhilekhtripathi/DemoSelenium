@@ -6,12 +6,12 @@ public class FibonacciSeriesExample {
 
 	public static void main(String[] args) {
 
-		int fiblength;
+		int fiblength =10;
 
 // Use scanner class to get the user input.
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the number : ");
-		fiblength = sc.nextInt();
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter the number : ");
+//		fiblength = sc.nextInt();
 
 		int[] num = new int[fiblength];
 // Assign values 0 and 1 to the 0 and 1 indices of the defined array

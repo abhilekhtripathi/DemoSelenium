@@ -1,18 +1,22 @@
 package StringPrograms;
-
+import java.util.Scanner;
 
 public class Test2 {
 
 	public static void main(String[] args) {
 
-		String s1 = "Rahul";
-		String s2 = "Shetty";
-		
-		s1= s1+s2;
-		
-		s2 = s1.substring(0, s1.length() - s2.length());
-		s1 = s1.substring(s2.length());
-		System.out.println(s1);
-		System.out.println(s2);
+         int fiblength = 15;
+         
+         int[] arr = new int[fiblength];
+            arr[0]=0;
+            arr[1]=1;
+         
+         for (int i = 2; i < arr.length; i++) {
+			arr[i]= arr[i-1]+arr[i-2];
+			
+		}
+         for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i]+ " ");
+		}
 	}
 }
