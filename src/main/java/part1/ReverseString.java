@@ -2,7 +2,7 @@ package part1;
 
 public class ReverseString {
 	public static void main(String[] args) {
-		String str = "Hello World";
+		String str = "madam";
 		String reversed = "";
 
 // Loop through the string in reverse order
@@ -11,5 +11,14 @@ public class ReverseString {
 		}
 
 		System.out.println("Reversed String: " + reversed);
+		
+		if (str.equalsIgnoreCase(reversed)) {
+			System.out.println("the string is palindrome");
+		}
+		
+		else {
+			System.out.println("the string is not palindrome");
+		}
 	}
+	
 }
