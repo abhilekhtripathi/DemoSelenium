@@ -1,5 +1,4 @@
 package StringPrograms;
-import java.util.Scanner;
 
 public class Test2 {
 
