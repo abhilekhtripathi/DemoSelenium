@@ -5,7 +5,7 @@ public class SwapNumber {
 	public static void main(String[] args) 
 	{
 		int a = 100;
-		int b = 2000;
+		int b = 200;
 		
 		a = a-b;//-10
 		b = a+b;//10

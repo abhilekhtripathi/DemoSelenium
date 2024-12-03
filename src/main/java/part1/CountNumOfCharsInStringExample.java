@@ -27,7 +27,7 @@ public class CountNumOfCharsInStringExample {
 
 	public static void main(String[] args) {
 // Input value which needs to be passed in the below method.
-		characterCount("rahulsheettyacademy");
+		characterCount("rahulsheettyacademyaaa");
 
 	}
 

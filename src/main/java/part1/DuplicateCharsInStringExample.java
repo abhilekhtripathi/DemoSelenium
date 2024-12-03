@@ -1,39 +1,31 @@
 package part1;
-
-import java.util.HashMap;
-import java.util.Set;
-
 public class DuplicateCharsInStringExample {
 
-	static void duplicateChars(String inputString) {
-
-// Creating a hashmap object.
-		HashMap<Character, Integer> hash_map = new HashMap<>();
-		char[] strArray = inputString.toCharArray();
-
-		for (char c : strArray) {
-			if (hash_map.containsKey(c)) {
-				hash_map.put(c, hash_map.get(c) + 1);
-			}
-
-			else {
-				hash_map.put(c, 1);
-			}
-
-		}
-// Store the key values in a set and then get the number of each duplicate character.
-		Set<Character> keys = hash_map.keySet();
-		for (char c : keys) {
-			if (hash_map.get(c) > 1) {
-				System.out.println(c + "-->" + hash_map.get(c));
-			}
-		}
-
-	}
-
 	public static void main(String[] args) {
-// Input value which needs to be passed in the below method.
-		duplicateChars("rahulshettyacademy");
+        String s = "abhilekhabhilekh test";
+        char[] s1 = s.toCharArray();
+
+        System.out.println("Duplicate characters in the string:");
+        for (int i = 0; i < s1.length; i++) {
+            int count = 1;
+
+            // Skip already processed characters
+            if (s1[i] == 0) {
+                continue;
+            }
+
+            for (int j = i + 1; j < s1.length; j++) {
+                if (s1[i] == s1[j]) {
+                    count++;
+                    s1[j] = 0; // Mark duplicate character as processed
+                }
+            }
+
+            // Print the character and its count if it's a duplicate
+            if (count > 1) {
+                System.out.println(s1[i] + " >> " + count);
+            }
+        }
 
 	}
 
