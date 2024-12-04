@@ -2,25 +2,21 @@ package part1;
 
 public class SumDigitsExample {
 
-	public static int getSumOfAllDigits(int num) {
-
-// Declare variable sum which will store the sum of all digits.
-		int sum = 0;
-
-// Run a while loop until the num becomes 0.
-		while (num != 0) {
-			int rem = num % 10;
-			sum = sum + rem;
-			num = num / 10;
-		}
-		return sum;
-
-	}
-
 	public static void main(String[] args) {
+        // Declare the number whose sum of digits needs to be calculated
+        int num = 1238;
 
-// We can pass any integer value of whose sum of the digits is required.
-		System.out.println(getSumOfAllDigits(1238));
-	}
+        // Initialize the variable to store the sum of all digits
+        int sum = 0;
 
+        // Run a while loop until num becomes 0
+        while (num != 0) {
+            int rem = num % 10; // Extract the last digit of num
+            sum = sum + rem;    // Add the last digit to sum
+            num = num / 10;     // Remove the last digit from num
+        }
+
+        // Print the sum of digits
+        System.out.println("Sum of all digits: " + sum);
+    }
 }
