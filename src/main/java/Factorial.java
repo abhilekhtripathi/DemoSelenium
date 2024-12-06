@@ -9,7 +9,7 @@ public class Factorial {
 		// !4 = 24
 		// !0 = 1
 
-		int num = 10;
+		int num = 5;
 		getFact(num);
 
 	}
