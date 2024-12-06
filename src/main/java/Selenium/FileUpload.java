@@ -16,6 +16,7 @@ public class FileUpload {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.foundit.in/upload");
 		System.out.println("the parent window title is :" + driver.getTitle());
+		System.out.println("the cuurent url is :"+ driver.getCurrentUrl());
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//div[contains(text(),'Upload Resume')]")).click();
 		Thread.sleep(3000);

@@ -1,0 +1,93 @@
+1. What is SQL and why is it used?
+SQL (Structured Query Language) is a standard language for managing and manipulating relational databases. 
+It is used for querying, inserting, updating, and deleting data in databases.
+
+2. What are the different types of SQL commands?
+SQL commands are divided into five categories:
+DDL (Data Definition Language): CREATE, ALTER, DROP, TRUNCATE
+DML (Data Manipulation Language): INSERT, UPDATE, DELETE
+DQL (Data Query Language): SELECT
+DCL (Data Control Language): GRANT, REVOKE
+TCL (Transaction Control Language): COMMIT, ROLLBACK, SAVEPOINT
+
+
+3. What is the difference between WHERE and HAVING?
+WHERE: Filters rows before grouping.
+HAVING: Filters groups after aggregation.
+
+4. What is the difference between INNER JOIN and OUTER JOIN?
+INNER JOIN: Returns rows with matching values in both tables.
+OUTER JOIN: Returns matching rows and unmatched rows from one or both tables.
+SELF JOIN : A self join is not a special type of join; it is just a way to use an existing join (like INNER JOIN, LEFT JOIN, etc.) on the same table.
+
+
+5. How do you retrieve unique records from a table?
+Answer: Use DISTINCT.
+SELECT DISTINCT department_id FROM employees;
+
+
+6. How do you find duplicate records in a table?
+
+SELECT name, COUNT(*) AS count
+FROM employees
+GROUP BY name
+HAVING COUNT(*) > 1;
+
+
+
+7. How do you fetch the second-highest salary?
+
+SELECT MAX(salary) AS second_highest_salary
+FROM employees
+WHERE salary < (SELECT MAX(salary) FROM employees);
+
+
+8. What are sub-queries, and how are they used?
+A sub-query is a query nested inside another query.
+
+Example: Find employees with the highest salary in their department.
+
+SELECT * 
+FROM employees e
+WHERE salary = (SELECT MAX(salary) 
+                FROM employees 
+                WHERE department_id = e.department_id);
+
+
+9. Explain the difference between UNION and UNION ALL.
+UNION: Combines results from two queries and removes duplicates.
+UNION ALL: Combines results from two queries without removing duplicates.
+Example:
+
+SELECT name FROM employees
+UNION
+SELECT name FROM contractors;
+
+
+10. How do you perform pagination in SQL?
+Pagination retrieves a subset of records.
+
+Example: Fetch the second page with 10 rows per page.
+
+SELECT * 
+FROM employees
+ORDER BY employee_id
+LIMIT 10 OFFSET 10;
+
+11.Keys differences  
+Key Type	(Uniqueness)	(NULLs Allowed)	(Purpose)
+Primary Key	    Yes	       No	              Uniquely identifies a row.
+Foreign Key  	No	       Yes(Nullable)	  Establishes relationships between tables.
+Unique Key	    Yes	       Yes(One NULL)	  Ensures unique values but not as primary key.
+Candidate Key	Yes	       No	              Potential primary keys.
+Composite Key	Yes	       No	              Combination of columns as primary key.
+Alternate Key	Yes	       No	              A candidate key not chosen as the primary key.
+
+
+
+
+
+
+
+
+
