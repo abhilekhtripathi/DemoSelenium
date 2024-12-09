@@ -1,4 +1,4 @@
-package com.abhi.personal;
+package array;
 
 public class MaxandMin {
 
