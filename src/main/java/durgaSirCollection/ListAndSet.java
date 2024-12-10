@@ -3,34 +3,25 @@ package durgaSirCollection;
 public class ListAndSet {
 	
 	/**
-	 * ******List***************
+	 * ******List(interface)***************
 	 * Duplicate values are allowed for the list
 	 * 
-	 * insertion order are preserved for the list 
+	 * follow the (insertion order) for the list interface 
 	 * 
+	 * List is an index based data structure 
 	 * 
+	 * We can iterate (get) the list element by using iterator & list-iterator 
 	 * 
+	 *  
 	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * *******************Set******************
+	 * *******************Set(interface)******************
 	 * Duplicate values are not allowed in the set 
 	 * 
-	 * insertion order are not preserved for the set 
+	 * not follow the (insertion order) for the set interface
 	 * 
+	 * set is not index based data structure values and it store the data according the hash code values 
 	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
+	 * we can iterate (get) the list element by using the iterator 
 	 * 
 	 * 
 	 */
