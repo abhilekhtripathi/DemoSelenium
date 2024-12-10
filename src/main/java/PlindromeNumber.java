@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class PlindromeNumber {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Number:");
+		//Scanner sc = new Scanner(System.in);
+		//System.out.println("Enter the Number:");
 
-		int no = sc.nextInt();
-
+	//	int no = sc.nextInt();
+         int no = 3;
 		int temp = no;
 		int rev = 0;
 		int rem;
