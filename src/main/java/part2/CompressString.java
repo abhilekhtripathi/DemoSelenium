@@ -2,7 +2,7 @@ package part2;
 
 public class CompressString {
     public static void main(String[] args) {
-        String input = "aabbbccccddddd";
+        String input = "aabbbcccc";
         String output = "";
         int count = 1;
 
