@@ -8,7 +8,7 @@ public class PlindromeNumber {
 		//System.out.println("Enter the Number:");
 
 	//	int no = sc.nextInt();
-         int no = 3;
+         int no = 3135;
 		int temp = no;
 		int rev = 0;
 		int rem;
