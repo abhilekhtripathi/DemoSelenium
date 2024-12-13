@@ -5,7 +5,7 @@ public class LongestConsecutiveOccurenceExample {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 4, 3, 25, 5,6, 7, 8, 2, 3, 10 };// jo number serial se chl rhe hai usko bolte h 
+		int[] arr = { 4, 3, 25, 5,6, 7, 8,9, 2, 3, 10 };// jo number serial se chl rhe hai usko bolte h 
 
 		
 		int count = 0; // Tracks the current length of a consecutive sequence.

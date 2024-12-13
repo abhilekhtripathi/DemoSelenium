@@ -4,7 +4,7 @@ public class CheckArmstrongNumberExample {
 
 	public static void main(String[] args) {
 
-		int num = 371;
+		int num = 371;//153
 		int actualnum = num;
 		double result = 0;
 

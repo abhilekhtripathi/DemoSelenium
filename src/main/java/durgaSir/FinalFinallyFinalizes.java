@@ -29,7 +29,8 @@ public class FinalFinallyFinalizes
  * 
  * *******************************
  * 
- * finalize is a method() which is always invoked by garbage collector just before destroy an object to cleanup the activities there
+ * finalize is a method() which is always invoked by garbage collector 
+ * just before destroy an object to cleanup the activities there
  * 
  * 
  * 
