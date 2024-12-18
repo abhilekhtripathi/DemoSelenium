@@ -25,7 +25,7 @@ public class CheckedExceptionAndUncheckecedException {
 	 * nullpointerexception 
 	 * 
 	 * 
-	 * in case of uncehcked exception complier will not be check whether programmer handle or not 
+	 * in case of unchecked exception complier will not be check whether programmer handle or not 
 	 * 
 	 * note : checked and unchecked exception are comes at the time of runtime of the program and there is no chance to come at the compile time error 
 	 * 
