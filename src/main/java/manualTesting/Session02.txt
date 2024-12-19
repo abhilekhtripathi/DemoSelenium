@@ -43,7 +43,7 @@ e) Result of each phases are well documented.
 
 DisAdv
 ------
-Cannot accommodate changing requirements. Thefore , not suitable for project where there is risk of requirement change.
+Cannot accommodate changing requirements. Therefore , not suitable for project where there is risk of requirement change.
 It is not good for complex projects
 
 No working software is produced until late during the life cycle. Testing will start only after coding is complete.

@@ -13,7 +13,7 @@ Phases of SDLC
 2) Design
 3) Development/implementation / coding
 4) Testing
-5) Deployement
+5) Deployment 
 6) Maintenance
 
 Software Testing Life Cycle (STLC)

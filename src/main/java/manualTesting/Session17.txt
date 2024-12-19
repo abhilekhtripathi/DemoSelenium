@@ -22,7 +22,7 @@ Test Plan Template
 7) Test Deliverables
 	Test deliverable before testing phase - test plan doc, test case doc, test design spec
 	Test deliverable during testing	- test script, simulators,test data, error logs & execution logs
-	Test deliveables after testing the testing cycle is over - Test report, Defect report, Release note..
+	Test deliverables after testing the testing cycle is over - Test report, Defect report, Release note..
 
 8) Exit Criteria
 9) Suspension and Resumption Criteria

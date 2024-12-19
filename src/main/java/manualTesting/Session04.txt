@@ -3,7 +3,7 @@
 						    ---------------------
 					    Software Testing Concepts - Session #04
 				          ------------------------------------------
-Levels Of Sofware Testing
+Levels Of Software Testing
 -------------------------
 
 SDLC Phases
@@ -17,9 +17,9 @@ Maintenance
 
 There are mainly 4 levels of software testing
 
-Unit Testing: checks if sofware component are fulfilling functionalities or not. It is done by developers in development environment.
+Unit Testing: checks if software component are fulfilling functionalities or not. It is done by developers in development environment.
 
-Integration Testing: checks the data flow from one modeule to another module. Integration means combining. For example , In this testing phase difference modues are combined and tested as a group to make sure that integrated system is ready for system testing.
+Integration Testing: checks the data flow from one module to another module. Integration means combining. For example , In this testing phase difference modues are combined and tested as a group to make sure that integrated system is ready for system testing.
 
 Approaches of Integration Testing
 ---------------------------------
