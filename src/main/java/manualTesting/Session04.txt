@@ -35,7 +35,7 @@ Module-3		Print Setup
 Module-4		Log out page
 
 
-System Testing: System testing is performed on integrated system. It involved load , performace testing, reliability and security testing.  It allows checking system's compliance as per the requirement.  It focus on 
+System Testing: System testing is performed on integrated system. It involved load , performance testing, reliability and security testing.  It allows checking system's compliance as per the requirement.  It focus on 
 
 Functional testing
 non functional testing
@@ -44,7 +44,7 @@ Usability testing
 
 It is end-to-end testing where the testing environment is parallel to the production environment. In the third level of software testing, we will test the application as a whole system. 
 
-User Acceptance Testing (UAT): Acceptance testing is conducted by the customer/stakeholder/users/domain expert for their satisfaction before accepting the final product. This is fourth level of testing.
+User Acceptance Testing (UAT): Acceptance testing is conducted by the customer/stackeholder/users/domain expert for their satisfaction before accepting the final product. This is fourth level of testing.
 
 Types of UAT
 --------------
