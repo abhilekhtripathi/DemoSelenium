@@ -28,7 +28,7 @@ test case
 
 Walkthrough :
 
-It is a informal review. In this author reads the document or code and discuss with the peers so that they note out the defects ans suggestions. It is not preplanned and it can be done whenever it is required.
+It is a informal review. In this author reads the document or code and discuss with the peers so that they note out the defects ans suggestions. It is not pre-planed and it can be done whenever it is required.
 
 Inspection :
 

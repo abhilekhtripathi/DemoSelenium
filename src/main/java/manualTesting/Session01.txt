@@ -34,7 +34,7 @@ Error, Bug/Defect & Failure
 ----------------------------
 Reasons of Software Bugs
 
-1) Lack of communication between stakeholders, development and testing team.
+1) Lack of communication between stake holders, development and testing team.
 2) Frequent change in requirement/ unclear requirement 
 3) Software complexity
 4) Programming error/source code error

@@ -36,7 +36,7 @@ Valid Age Input is 18 to 35
 
 Example 2: we have to test a field which accepts mobile number of 10 digit
 
-Equivalance partition
+Equivalence partition
 ----------------------
 less than 10 digit (invalid): 98715431
 10 digit (valid): 		9868543124
