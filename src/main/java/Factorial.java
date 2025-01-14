@@ -1,28 +1,25 @@
 
-
 public class Factorial {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//System.out.println("dfghjk");
+		// System.out.println("dfghjk");
 		// !5 = 5x4x3x2x1 = 120
 		// !4 = 24
 		// !0 = 1
 
-		int num = 5;
-		getFact(num);
+		// !3=3*2*1
 
-	}
+		// Scanner sc = new Scanner(System.in);
 
-	public static void getFact(int num) {
-
-		System.out.println("this is my fact code");
+		int no = 9;
 		int fact = 1;
 
-		for (int i = 1; i <= num; i++) {
+		for (int i = 1; i <= no; i++) {
 			fact = fact * i;
 		}
-		System.out.println("factorial of " + num + " is :" + fact);
+
+		System.out.println(fact);
+
 	}
 
 }

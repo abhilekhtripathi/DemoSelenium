@@ -17,6 +17,7 @@ public class MouseOvering {
 
 		Actions act = new Actions(driver);
 		act.contextClick(rightclick).perform();
+		act.dragAndDrop(rightclick, rightclick);
 	}
 
 }
