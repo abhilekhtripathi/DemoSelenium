@@ -1,6 +1,6 @@
 package array;
 
-<<<<<<< HEAD
+
 import java.util.Arrays;
 
 import org.openqa.selenium.WebDriver;
@@ -22,17 +22,6 @@ public class SumOfArray {
             }
         }
         System.out.println("No pairs found.");
-=======
-public class SumOfArray {
-
-	public static void main(String[] args) {
-		int[] arr = {12, 16, 12, 34, 5, 38, 35};
-
-        // Find 12 and 38 and sum them
-        int sum = arr[1] + arr[3]; // arr[0] is 12 and arr[5] is 38
-        System.out.println("Sum of : " + sum);
-
->>>>>>> 2c25406be795aebaf74642d3a6aed2f7112a1575
 	}
 
 }
