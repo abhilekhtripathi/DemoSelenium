@@ -10,12 +10,13 @@ public class SecondLargest {
             if (num > first) { 
                 second = first; // If current element is greater than first, update second
                 first = num; // Update first with the current element
-            } else if (num > second && num != first) {
+            } 
+            else if (num > second && num != first) {
                 second = num; // Update second if current element is greater than second
             }
         }
         
         // Print the second largest element
-        System.out.println("Second largest element: " + second);
+        System.out.println("Second largest element: " + first);
     }
 }
