@@ -1,8 +1,9 @@
+
 package part2;
 
 public class CompressString {
     public static void main(String[] args) {
-        String input = "aabbbcccc";
+        String input = "aabbbc";
         String output = "";
         int count = 1;
 
