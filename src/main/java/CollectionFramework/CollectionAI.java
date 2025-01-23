@@ -3,7 +3,7 @@ package CollectionFramework;
 public class CollectionAI
 {
 /**
- * The Java Collection Framework provides a set of classes and interfaces that implement various types of collections, 
+ * The Java Collection Framework provides a set of classes and interfaces that implement various types ofcollections, 
  * such as lists, sets, and maps. It is part of the java.util package and helps manage groups of objects
  * 
  *  Key Interfaces:
@@ -25,9 +25,11 @@ _______________________________________________________________
  * 
  * Key Classes:
 ArrayList: Implements the List interface and provides a dynamic array that grows as needed.
+
 HashMap: Implements the Map interface and stores data in key-value pairs with no order guaranteed.
 
 HashSet: Implements the Set interface and provides a collection that does not allow duplicates and has no ordering.
+
 LinkedList: Implements both the List and Deque interfaces, 
 providing functionality to add and remove elements from both ends of the list.
 
