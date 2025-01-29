@@ -17,6 +17,6 @@ public class SecondLargest {
         }
         
         // Print the second largest element
-        System.out.println("Second largest element: " + first);
+        System.out.println("Second largest element: " + second);
     }
 }
