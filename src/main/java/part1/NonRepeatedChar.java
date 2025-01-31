@@ -3,20 +3,14 @@ package part1;
 public class NonRepeatedChar {
 	public static void main(String[] args) {
 
-		int[] arr = { 12, 324, 44, 44, 5, 6, 78 };
+		String s = "abababcef";
 
-		int first = Integer.MIN_VALUE;
-		int second = Integer.MIN_VALUE;
-
-		for (int num : arr) {
-			if (num > first) {
-				second = first;
-				first = num;
-			} else if (num > second && num != first) {
-				second = num;
+		// Iterate over each character of the string
+		for (int i = 0; i < s.length(); i++) {
+			// If the character appears only once in the string, print it
+			if (s.indexOf(s.charAt(i)) == s.lastIndexOf(s.charAt(i))) {
+				System.out.print(s.charAt(i) + " ");
 			}
 		}
-		
-		System.out.println(second);
 	}
 }
