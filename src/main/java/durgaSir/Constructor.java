@@ -10,7 +10,7 @@ public class Constructor
  * we can not overrride the construstor because of Extends concept not there
  *
  * Java provides a default constructor that is invoked during the time of object creation.
- *  If you create any type of constructor, the default constructor (provided by Java) is not invoked.
+ *  If you create any own type of constructor, the default constructor (provided by Java) is not invoked.
  * 
  * types
  * Default Constructor

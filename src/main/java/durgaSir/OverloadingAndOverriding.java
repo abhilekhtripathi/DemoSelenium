@@ -8,7 +8,7 @@ public class OverloadingAndOverriding {
 	 * method name must be same 
 	 * arguments order must be different (integer ) (integer,string).
 	 * method signature must be different 
-	 * private , static & final can be overloaded 
+	 * private , static & final method  can be overloaded 
 	 * Also knows as compile time polymorsphism  , early binding and static binding 
 	 * access modifier no restriction 
 	 * Note:We have to check the method name and arguments only 
