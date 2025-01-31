@@ -4,7 +4,9 @@ public class CommonUseinSelenium
 {
 /**
  * Common Use Cases in Selenium:
+ * 
    Storing Multiple WebElements:
+   
     Often, you'll need to work with multiple elements 
    (e.g., multiple buttons or links) on a page. Collections, particularly List<WebElement>, are used to store these elements.
 
@@ -18,7 +20,7 @@ public class CommonUseinSelenium
  * 
  * 
  * _________________________________________________________________
- *  Using HashSet to Remove Duplicate Elements:
+ *  Using HashSet to Remove Duplicate Elements:or Jaha hm log getWindowhandles use krte toh set<String> returkrtah
  *  Set<String> uniqueTexts = new HashSet<>();
     List<WebElement> textElements = driver.findElements(By.className("text"));
      for (WebElement element : textElements) {
