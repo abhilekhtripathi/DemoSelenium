@@ -8,7 +8,7 @@ public class StringAndStringBuffer {
 	 * once we create a String Object we can not perform any changes in the existing object . if we are trying to perform the changes 
 	 * with these changes then a new object created ,it means this process called as immutability of the object.
 	 * 
-	 *  
+	 * String Pool (String Intern Pool): store all the string objects 
 	 *  
 	 *  
 	 *  
