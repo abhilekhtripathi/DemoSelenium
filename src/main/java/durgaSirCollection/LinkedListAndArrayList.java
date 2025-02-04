@@ -4,7 +4,7 @@ public class LinkedListAndArrayList {
 	
 	
 	/**
-	 * *********ArrayList************
+	 * *********ArrayList************  default capacity is 10 
 	 * 
 	 * Array list act an List 
 	 * 

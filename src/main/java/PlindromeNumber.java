@@ -8,22 +8,15 @@ public class PlindromeNumber {
 		//System.out.println("Enter the Number:");
 
 	//	int no = sc.nextInt();
-         int no = 3135;
-		int temp = no;
-		int rev = 0;
-		int rem;
-
-		while (temp != 0) {
-			rem = temp % 10;
-			rev = rev * 10 + rem;
-			temp = temp / 10;
-		}
-		if (no == rev) {
-
-			System.out.println(no + " No is plaindrome ");
-		} else
-
-			System.out.println(no + " Not a pialndrome");
+		 String s = "abababcef";
+	        
+	        // Iterate over each character of the string
+	        for (int i = 0; i < s.length(); i++) {
+	            // If the character appears only once in the string, print it
+	            if (s.indexOf(s.charAt(i)) == s.lastIndexOf(s.charAt(i))) {
+	                System.out.print(s.charAt(i)+ " ");
+	            }
+	        }
 	}
 
 }
