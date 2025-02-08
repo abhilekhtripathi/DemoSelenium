@@ -6,10 +6,12 @@ public class steps2
  We are using a maven Project to manage all dependencies which our project requires and using testNg as framework. Along with testNg framework we are using Data Driven Approach using TestNg @DataProvider annotation so we can run our tests multiple times with different Data.
 
 hashtag#Folder 1 (src/test/java) 📁
+
 We have src/test/java folder where we have one package named hashtag#testcases and we are maintaining all our test case files (java files). Ex : LoginTest.java
 We are using @Test Annotation for tests.
 
 hashtag#Folder 2 (src/test/resources) 📁
+
 Inside src/test/resources we have one package with name hashtag#utilities where we maintained our data.properties file containing url and username and password data. Our excel files are also present inside this utilities package.
 
 hashtag#Folder 3 (src/main/java) 📁
