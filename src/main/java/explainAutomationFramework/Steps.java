@@ -2,11 +2,15 @@ package explainAutomationFramework;
 
 public class Steps 
 {
-
 	/**
-	 * "Our Selenium framework is a robust test automation solution designed using 
-	 * Java, Selenium WebDriver, Page Object Model (POM), TestNG, Data-Driven Testing, and Reporting. 
-	 * The framework is modular, scalable, and ensures separation of concerns, making it maintainable and reusable."
+	 * I am working  a automation testing framework using Selenium with Java, 
+	 * leveraging Maven for dependency management and TestNG for test execution. 
+	 * The framework follows the Page Object Model design pattern, ensuring modularity and reusability. 
+	 * It supports data-driven testing, where test data is stored in external files like Excel 
+	 * and fed into tests using TestNG’s @DataProvider. The framework is integrated into our CI/CD pipeline using Jenkins, 
+	 * allowing automated tests to run with every build. This ensures continuous testing and quick feedback. Additionally, 
+	 * the framework supports parallel execution and cross-browser testing, making it scalable and efficient. Overall, 
+	 * it has helped us improve test coverage, reduce manual effort, and deliver high-quality software."
 	 * 
 	 * Key Components of the Framework:----
 	 *  Page Object Model (POM)
@@ -14,30 +18,9 @@ public class Steps
 	 *  Data-Driven concept for managing the test data
 	 *  Reporting for view test cases report 
 	 *  Reusable/driver Utilities
-	 *  
-	 *  This framework is modular, extensible, and designed to handle complex testing requirements. 
-	 *  It enables high test coverage, faster debugging through detailed reports, 
-	 *  and easy integration with CI/CD pipelines for continuous testing."
+	 *  CI/CD Integration	>>  Framework runs in Jenkins/GitHub Actions/Azure DevOps
 	 * 
-	 * 
-	 * 1. Introduction
-        "An automation testing framework is a structured approach to writing and executing test scripts efficiently. 
-        Our framework, built using Selenium and Java, provides a scalable, reusable, and maintainable solution for testing web applications."
-        
-                   2. Key Components of the Framework
-                            
-        Selenium WebDriver  >>	    with web browsers to automate actions
-        Java  >>	                Programming language used for writing test scripts
-        TestNG/JUnit  >> 	        Manages test execution, assertions, and reporting
-        Page Object Model (POM)>>  	A java design  pattern for maintaining test scripts
-        Data-Driven Testing	>>      Uses Excel, JSON, or Properties files for input data
-                Maven/Gradle	 >> Manages dependencies and builds
-                    Log4j	 >>    Captures logs for debugging
-      ChainTest  Reports/Allure  >>	Generates execution reports
-          CI/CD Integration	   >>  Framework runs in Jenkins/GitHub Actions/Azure DevOps
-	 * 
-	 * 
-	 * 
+
 	 *      4. How the Framework Works (Execution Flow)
 	 *      
 1️>> Test case execution starts (via TestNG or Maven command)
@@ -50,14 +33,7 @@ public class Steps
 	 * 
 	 * 
 	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
+
 	 * 
 	 * 
 	 */
