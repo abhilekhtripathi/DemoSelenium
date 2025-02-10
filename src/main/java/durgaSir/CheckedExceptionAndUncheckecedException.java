@@ -7,7 +7,7 @@ public class CheckedExceptionAndUncheckecedException {
 	 *
 	 * Checked exception which are checked by complier for smooth execution of the program at run time are called checked exception exception 
 	 * 
-	 * 
+	 * ClassNotFoundException ,IOException ,SQLException
 	 * FileNotFoundException
 	 * HallTicketException
 	 * PenNotWorking  
@@ -21,7 +21,7 @@ public class CheckedExceptionAndUncheckecedException {
 	 * the exception which are not check by complier are called as the unchecked exception 
 	 * 
 	 * 
-	 * Airthmeticexception
+	 * Airthmeticexception ,NumberFormatException ,UnsupportedOperationException ,IllegalArgumentException,ArrayIndexOutOfBoundsException
 	 * nullpointerexception 
 	 * 
 	 * 
