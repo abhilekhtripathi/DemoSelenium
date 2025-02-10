@@ -12,4 +12,8 @@ public class Xpath {
 	// covid care (//a[contains(text(),'Iran')]/parent::td//following-sibling::td[normalize-space()='146,811'])[1]
 	
    // reddiff market //div[normalize-space()='Hang Seng']/parent::div/div[2]
+	
+	// akasaasa  //div[contains(text(),'February 2025')]/parent::div//following-sibling::div//div[text()='2']
+	
+	
 }
