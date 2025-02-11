@@ -1,4 +1,4 @@
-package Selenium1;
+package ScenarioBasedSelenium;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

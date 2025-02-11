@@ -1,4 +1,4 @@
-package Selenium1;
+package ScenarioBasedSelenium;
 
 public class WhereUseListSetConcept
 {

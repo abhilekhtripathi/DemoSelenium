@@ -8,7 +8,7 @@ public class SuperVSthis
  * Refers   >  to Parent class members
  * Variable Access> 	Accesses parent class variable (if hidden)
  * Method Access > 	Calls parent class method (if overridden)
- * onstructor Call > 	Calls parent class constructor using super()
+ * constructor Call > 	Calls parent class constructor using super()
  * Use Case	 > Used when a child class wants to access parent class properties or behaviors
  * Allowed in Static Context? > No, because super is tied to instance members
  * 
