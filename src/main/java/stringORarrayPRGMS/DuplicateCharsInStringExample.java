@@ -1,4 +1,4 @@
-package part1;
+package stringORarrayPRGMS;
 public class DuplicateCharsInStringExample {
 
 	public static void main(String[] args) {

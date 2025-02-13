@@ -1,4 +1,4 @@
-package part2;
+package stringAndarraysLogics;
 
 public class MissingNumber {
     public static void main(String[] args) {

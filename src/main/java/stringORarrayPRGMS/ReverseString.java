@@ -1,4 +1,4 @@
-package part1;
+package stringORarrayPRGMS;
 
 public class ReverseString {
 	public static void main(String[] args) {

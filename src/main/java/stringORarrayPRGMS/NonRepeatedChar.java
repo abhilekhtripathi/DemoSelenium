@@ -1,4 +1,4 @@
-package part1;
+package stringORarrayPRGMS;
 
 public class NonRepeatedChar {
 	public static void main(String[] args) {

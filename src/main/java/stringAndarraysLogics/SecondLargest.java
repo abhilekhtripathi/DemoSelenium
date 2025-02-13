@@ -1,4 +1,4 @@
-package part2;
+package stringAndarraysLogics;
 
 public class SecondLargest {
     public static void main(String[] args) {

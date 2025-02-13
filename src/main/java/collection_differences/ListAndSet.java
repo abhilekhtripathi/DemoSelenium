@@ -1,4 +1,4 @@
-package durgaSirCollection;
+package collection_differences;
 
 public class ListAndSet {
 	
