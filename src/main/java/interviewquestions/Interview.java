@@ -38,7 +38,6 @@ public class Interview
 34. What is the difference between git pull and git patch?
 35. Explain the use of Jenkins in the Automation Framework?
  * 
-
  * 
  * 
  */
