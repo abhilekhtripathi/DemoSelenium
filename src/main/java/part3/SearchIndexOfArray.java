@@ -14,7 +14,7 @@ public class SearchIndexOfArray
 	        
 	        for (int i = 0; i < numbers.length; i++) {
 	            if (numbers[i] == target) {
-	                System.out.println("Element found at index: " + i);
+	                System.out.println(i);
 	                scanner.close();
 	                return;
 	            }
