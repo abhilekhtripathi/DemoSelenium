@@ -10,6 +10,7 @@ public class OnlyDigits {
         // Print whether the string contains only digits
         if (isNumeric) {
             System.out.println("The string contains only digits.");
+            System.out.print(0);
         } else {
             System.out.println("The string contains other characters.");
         }
